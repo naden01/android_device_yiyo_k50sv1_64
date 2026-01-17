@@ -18,5 +18,6 @@ $(call inherit-product, device/yiyo/k50sv1_64/device.mk)
 PRODUCT_DEVICE := k50sv1_64
 PRODUCT_NAME := omni_k50sv1_64
 PRODUCT_BRAND := YIYO
-PRODUCT_MODEL := k50sv1_64
+PRODUCT_MODEL := X30proMAX_Ultra
 PRODUCT_MANUFACTURER := YIYO
+PRODUCT_RELEASE_NAME := Yiyo  X30proMAX Ultra

@@ -80,7 +80,7 @@ TW_BRIGHTNESS_PATH := /sys/class/leds/lcd-backlight/brightness
 TW_DEVICE_VERSION :=  nazephyrus | cheap ahh tablet
 
 # exFAT FS Support
-TW_INCLUDE_FUSE_EXFAT := false
+TW_INCLUDE_FUSE_EXFAT := true
 
 TW_INCLUDE_NTFS_3G := true
 TW_EXCLUDE_NANO := true
@@ -89,15 +89,12 @@ BUILD_WITH_BASH := false
 TW_EXCLUDE_ENCRYPTED_BACKUPS := true
 TW_EXCLUDE_TZDATA := true
 TW_INCLUDE_CRYPTO := false
-TW_EXCLUDE_MTP := true
 TW_INCLUDE_FB2PNG := false
-TW_NO_EXFAT_FUSE := true
 TW_EXCLUDE_NANO := true
 TW_EXCLUDE_APEX := true
 TW_EXCLUDE_PYTHON := true
 TW_EXTRA_LANGUAGES := false
 TW_EXCLUDE_DEFAULT_USB_INIT := true
-TW_DEFAULT_LANGUAGE := EN
 
 # Debug
 TWRP_INCLUDE_LOGCAT := true

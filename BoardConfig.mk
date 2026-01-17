@@ -75,15 +75,12 @@ TW_THEME := portrait_hdpi
 TW_SCREEN_BLANK_ON_BOOT := true
 TW_INPUT_BLACKLIST := "hbtp_vm"
 TW_USE_TOOLBOX := true
-TW_EXTRA_LANGUAGES := false
-TW_EXCLUDE_DEFAULT_USB_INIT := true
-TW_DEFAULT_LANGUAGE := EN
 TW_EXCLUDE_TWRPAPP := false
 TW_BRIGHTNESS_PATH := /sys/class/leds/lcd-backlight/brightness
 TW_DEVICE_VERSION :=  nazephyrus | cheap ahh tablet
 
 # exFAT FS Support
-TW_INCLUDE_FUSE_EXFAT := true
+TW_INCLUDE_FUSE_EXFAT := false
 
 TW_INCLUDE_NTFS_3G := true
 TW_EXCLUDE_NANO := true
@@ -97,6 +94,12 @@ TW_INCLUDE_FB2PNG := false
 TW_NO_EXFAT_FUSE := true
 TW_NO_BATT_PERCENT := true
 TW_EXCLUDE_NANO := true
+TW_EXCLUDE_APEX := true
+TW_EXCLUDE_PYTHON := true
+TW_NO_CPU_TEMP := true
+TW_EXTRA_LANGUAGES := false
+TW_EXCLUDE_DEFAULT_USB_INIT := true
+TW_DEFAULT_LANGUAGE := EN
 
 # Debug
 TWRP_INCLUDE_LOGCAT := true

@@ -75,7 +75,6 @@ TW_THEME := portrait_hdpi
 TW_SCREEN_BLANK_ON_BOOT := true
 TW_INPUT_BLACKLIST := "hbtp_vm"
 TW_USE_TOOLBOX := true
-TW_EXCLUDE_TWRPAPP := false
 TW_BRIGHTNESS_PATH := /sys/class/leds/lcd-backlight/brightness
 TW_DEVICE_VERSION :=  nazephyrus | cheap ahh tablet
 
@@ -94,6 +93,7 @@ TW_EXCLUDE_NANO := true
 TW_EXCLUDE_APEX := true
 TW_EXCLUDE_PYTHON := true
 TW_EXTRA_LANGUAGES := false
+TW_EXCLUDE_TWRPAPP := true
 
 # Debug
 TWRP_INCLUDE_LOGCAT := true

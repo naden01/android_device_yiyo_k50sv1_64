@@ -104,3 +104,5 @@ TW_EXCLUDE_TWRPAPP := true
 # Debug
 TWRP_INCLUDE_LOGCAT := true
 TARGET_USES_LOGD := true
+
+PRODUCT_PACKAGES += libopenaes

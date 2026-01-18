@@ -6,7 +6,7 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/omni_k50sv1_64.mk
+    $(LOCAL_DIR)/twrp_k50sv1_64.mk
 
 COMMON_LUNCH_CHOICES := \
-    omni_k50sv1_64-eng
+    twrp_k50sv1_64-eng

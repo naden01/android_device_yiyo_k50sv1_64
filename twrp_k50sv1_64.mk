@@ -9,14 +9,14 @@
 $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
-# Inherit some common Omni stuff.
-$(call inherit-product, vendor/omni/config/common.mk)
+# Inherit some common twrp stuff.
+$(call inherit-product, vendor/twrp/config/common.mk)
 
 # Inherit from k50sv1_64 device
 $(call inherit-product, device/yiyo/k50sv1_64/device.mk)
 
 PRODUCT_DEVICE := k50sv1_64
-PRODUCT_NAME := omni_k50sv1_64
+PRODUCT_NAME := twrp_k50sv1_64
 PRODUCT_BRAND := YIYO
 PRODUCT_MODEL := X30proMAX_Ultra
 PRODUCT_MANUFACTURER := YIYO

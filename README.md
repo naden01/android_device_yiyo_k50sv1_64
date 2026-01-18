@@ -12,7 +12,7 @@ Chipset | MediaTek Helio P10 (MT6755), 28nm
 GPU     | Mali-T860
 Memory  | 4 GB RAM
 Shipped Android Version | Android 8.1 
-Storage | 32GB (emmc)
+Storage | 16GB (emmc)
 Battery | 5000 mAh, non-removable
 Display | 800 x 1280 pixels,7.19 inches, 60hz
 

@@ -6,3 +6,7 @@
 #
 
 LOCAL_PATH := device/yiyo/k50sv1_64
+
+# Soong namespaces
+PRODUCT_SOONG_NAMESPACES += \
+    $(LOCAL_PATH)

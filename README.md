@@ -16,7 +16,13 @@ Storage | 16GB (emmc)
 Battery | 5000 mAh, non-removable
 Display | 800 x 1280 pixels,7.19 inches, 60hz
 
+# Image
+![photo_2026-01-19_23-52-47](https://github.com/user-attachments/assets/b0c3435a-2585-4d57-bf11-74e1c9ed5f3e)
+![photo_2026-01-19_23-51-54](https://github.com/user-attachments/assets/e5570109-d9a6-4b19-bdd6-e7e72ec64e12)
+
+
 # Checks
+
 Blocking checks
 - [✔] Correct screen/recovery size
 - [✔] Working Touch, screen
@@ -43,7 +49,7 @@ Minor checks
 - [✔] poweroff
 - [✔] battery level
 - [✔] temperature
-- [✔] encrypted backups
+- [ X ] encrypted backups
 - [✔] input devices via USB (USB-OTG) - keyboard and mouse and storage
 - [✔] USB mass storage export
 - [✔] set brightness

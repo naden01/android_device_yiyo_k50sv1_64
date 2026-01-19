@@ -9,6 +9,7 @@ DEVICE_PATH := device/yiyo/k50sv1_64
 
 # For building with minimal manifest
 ALLOW_MISSING_DEPENDENCIES := true
+ALLOW_MISSING_DEPENDENCIES := true
 BUILD_BROKEN_ELF_PREBUILT_PRODUCT_COPY_FILES := true
 
 # Architecture
@@ -91,7 +92,6 @@ TW_INCLUDE_NTFS_3G := true
 TW_EXCLUDE_NANO := true
 TW_EXCLUDE_BASH := true
 BUILD_WITH_BASH := false
-TW_EXCLUDE_ENCRYPTED_BACKUPS := true
 TW_EXCLUDE_TZDATA := true
 TW_INCLUDE_CRYPTO := false
 TW_INCLUDE_FB2PNG := false
